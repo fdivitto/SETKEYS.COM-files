@@ -1,0 +1,44 @@
+8   "^S"        Freccia Sinistra => cursore a sinistra
+8 S "^A"        SHIFT + Freccia Sinistra => parola a sinistra
+8 C "^'#8F'"    CTRL + Freccia Sinistra => Inizio riga
+
+1   "^D"        Freccia Destra   => cursore a destra
+1 S "^F"        SHIFT + Freccia Destra => parola a destra
+1 C "^'#90'"    CTRL + Freccia Destra => Fine riga
+
+0   "^E"        Freccia Su => Cursore in alto
+0 S "^R"        SHIFT + Freccia Su => Pagina precedente
+0 C "^'#91'"    CTRL + Freccia Su => Inizio documento
+
+2   "^X"        Freccia Giu => cursore in basso
+2 S "^C"        SHIFT + Freccia Giu => Pagina successiva
+2 C "^'#92'"    CTRL + Freccia Giu => Fine documento
+
+68   "^'#8D'"    TAB => tab a destra
+68 S "^'#8E'"    SHIFT + TAB => tab a sinistra
+
+16   "^G"        CLR => elimina carattere sotto il cursore
+16 C "^'#93'"    CTRL + CLR => elimina caratteri a destra
+16 S "^'#94'"    SHIFT + CLR => elimina caratteri a sinistra
+
+66   "^'#95'"    ESC => salva ed esce
+
+9    "^'#96'"    COPY => copia il blocco selezionato
+9 S  "^'#97'"    SHIFT + COPY => muove il blocco selezionato
+9 C  "^'#98'"    CTRL + COPY => elimina il blocco selezionato
+
+E #8D "^OD"      Token per Tab a destra
+E #8E "^OS"      Token per Tab a sinistra
+E #8F "^QS"      Token per Inizio riga
+E #90 "^QD"      Token per Fine riga
+E #91 "^QR"      Token per Inizio documento
+E #92 "^QC"      Token per Fine documento
+E #93 "^QY"      Token per Elimina car. a destra
+E #94 "^Q^'127'" Token per Elimina car. a sinistra
+E #95 "^OQ"      Token per Salva ed esce
+E #96 "^KC"      Token per Copia blocco selezionato
+E #97 "^KV"      Token per Muove blocco selezionato
+E #98 "^KY"      Token per Elimina blocco selezionato
+
+E #81 "^KB"      F1 => Marca inizio del blocco
+E #82 "^KK"      F2 => Marca fine del blocco
