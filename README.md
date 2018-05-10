@@ -1,1 +1,1 @@
-# Hisoft-Devpac80-keys
+# Key definitions (SETKEYS.COM) for Hisoft Devpac80 editor (CP/M)
