@@ -10,6 +10,8 @@
 
  1    "^D"      Freccia Destra => muove il cursore a destra
 
+ 5    "^L"      F3 => continua ricerca stringa
+ 
 68    "^I"      TAB => tab a destra
 
 16    "^G"      CLR => rimuove carattere sotto il cursore
@@ -17,7 +19,5 @@
 
 66    "^K"      ESC => esce dall'editor
 66 C  "^'#8D'"  CTRL + ESC => Abort (annulla mod. ed esci)
-
-5     "^L"      F3 => continua ricerca stringa
 
 E #8D "^BAB^M"  Token per Abort
