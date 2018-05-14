@@ -1,17 +1,17 @@
  0    "^E"      Freccia Su => muove il cursore su
  0 C  "^W"      CTRL + Freccia Su => scorre il documento giu
- 0 S  "^C"      SHIFT + Freccia Su => Pagina precedente
+ 0 S  "^R"      SHIFT + Freccia Su => Pagina precedente
 
  2    "^X"      Freccia Giu => muove il cursore giu
  2 C  "^Z"      CTRL + Freccia Giu => scorre il documento su
- 2 S  "^R"      SHIFT + Freccia Giu => Pagina successiva
+ 2 S  "^C"      SHIFT + Freccia Giu => Pagina successiva
 
  8    "^S"      Freccia Sinistra => muove il cursore a sinistra
 
  1    "^D"      Freccia Destra => muove il cursore a destra
 
  5    "^L"      F3 => continua ricerca stringa
- 
+
 68    "^I"      TAB => tab a destra
 
 16    "^G"      CLR => rimuove carattere sotto il cursore
