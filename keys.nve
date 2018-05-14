@@ -1,0 +1,23 @@
+ 0    "^E"      Freccia Su => muove il cursore su
+ 0 C  "^W"      CTRL + Freccia Su => scorre il documento giu
+ 0 S  "^C"      SHIFT + Freccia Su => Pagina precedente
+
+ 2    "^X"      Freccia Giu => muove il cursore giu
+ 2 C  "^Z"      CTRL + Freccia Giu => scorre il documento su
+ 2 S  "^R"      SHIFT + Freccia Giu => Pagina successiva
+
+ 8    "^S"      Freccia Sinistra => muove il cursore a sinistra
+
+ 1    "^D"      Freccia Destra => muove il cursore a destra
+
+68    "^I"      TAB => tab a destra
+
+16    "^G"      CLR => rimuove carattere sotto il cursore
+16 C  "^T"      CTRL + CLR => elimina caratteri a destra
+
+66    "^K"      ESC => esce dall'editor
+66 C  "^'#8D'"  CTRL + ESC => Abort (annulla mod. ed esci)
+
+5     "^L"      F3 => continua ricerca stringa
+
+E #8D "^BAB^M"  Token per Abort
