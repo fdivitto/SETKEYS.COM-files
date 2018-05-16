@@ -1,4 +1,4 @@
-This repository contains some keyboard configuration files for full screen editors. They work on CPC 6128 in CP/M mode.
+This repository contains some keyboard configuration files for full screen editors. They work on CPC 6128 in CP/M Plus mode.
 
 ----------------------------------------------------------------
 
