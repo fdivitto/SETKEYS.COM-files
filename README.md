@@ -17,3 +17,11 @@ Usage:
 SETKEYS KEYS.NVE
 
 
+----------------------------------------------------------------
+
+KEYS.VDE : for VDE 2.66 editor
+
+Usage
+
+SETKEYS KEYS.VDE
+
