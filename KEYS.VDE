@@ -23,21 +23,19 @@
 
 5    "^L"      F3 => continua ricerca
 
-66    "^'#95'"  ESC => salva ed esce
-66 C  "^'#96'"  CTRL + ESC => Abort (annulla mod. ed esci)
+37 C "^'ESC'"     CTRL + K => ESC
 
 E #8D "^Q^D"    Token per Fine riga
 E #8E "^Q^S"    Token per Inizio riga
 E #8F "^Q^R"    Token per Inizio documento
 E #90 "^Q^C"    Token per Inizio documento
 E #91 "^Q^Y"    Token per Elimina caratteri a destra
-E #92 "^KC"     Token per Copia blocco selezionato
-E #93 "^KV"     Token per Muove blocco selezionato
-E #94 "^KY"     Token per Elimina blocco selezionato
-E #95 "^KX"     Token per Salva ed esce
-E #96 "^KQ"     Token per Abort (annulla mod. ed esci)
+E #92 "^'ESC'C"     Token per Copia blocco selezionato
+E #93 "^'ESC'V"     Token per Muove blocco selezionato
 
-E #81 "^KB"     F1 => Marca inizio del blocco
-E #82 "^KK"     F2 => Marca fine del blocco
+E #94 "^'ESC'Y"     Token per Elimina blocco selezionato
+
+E #81 "^'ESC'B"     F1 => Marca inizio del blocco
+E #82 "^'ESC'K"     F2 => Marca fine del blocco
 E #84 "^PZ"     F4 => Setta placemarker
 E #85 "^QP"     F4 => Cicla tra i placemarkers
