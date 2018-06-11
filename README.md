@@ -1,4 +1,9 @@
 This repository contains some keyboard configuration files for full screen editors. They work on CPC 6128 in CP/M Plus mode.
+Maybe you need to convert from unix to dos (CP/M) text file format with:
+
+unix2dos KEYS.VDE
+
+
 
 ----------------------------------------------------------------
 
