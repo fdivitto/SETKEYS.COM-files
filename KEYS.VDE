@@ -1,0 +1,45 @@
+14    "^E"      Freccia Su => muove il cursore su
+14 S  "^R"      SHIFT + Freccia Su => Pagina precedente
+14 A  "^'#8F'"  ALT + Freccia Su => Inizio documento
+
+ 6    "^D"      Freccia Destra => muove il cursore a destra
+ 6 A  "^'#8D'"  ALT + Freccia Destra => Fine riga
+ 6 S  "^F"      SHIFT + Freccia Destra => parola a destra
+
+79    "^X"      Freccia Giu => muove il cursore giu
+79 S  "^C"      SHIFT + Freccia Giu => Pagina successiva
+79 A  "^'#90'"  ALT + Freccia Giu => Fine documento
+
+15    "^S"      Freccia Sinistra => muove il cursore a sinistra
+15 A  "^'#8E'"  ALT + Freccia Sinistra => Inizio riga
+15 S  "^A"      SHIFT + Freccia Sinistra => parola a sinistra
+
+16    "^G"      DEL-> => elimina carattere sotto il cursore
+16 A  "^'#91'"  ALT + DEL-> => elimina caratteri a destra
+
+11    "^'#92'"  COPY => copia il blocco selezionato
+11 S  "^'#93'"  SHIFT + COPY => muove il blocco selezionato
+
+11 A  "^'#94'"  ALT + COPY => elimina il blocco selezionato
+
+66    "^'#95'"  STOP => salva ed esce
+66 A  "^'#96'"  ALT + STOP => Abort (annulla mod. ed esci)
+
+E #8D "^Q^D"    Token per Fine riga
+E #8E "^Q^S"    Token per Inizio riga
+E #8F "^Q^R"    Token per Inizio documento
+E #90 "^Q^C"    Token per Inizio documento 
+E #91 "^Q^Y"    Token per Elimina caratteri a destra
+E #92 "^'ESC'C" Token per Copia blocco selezionato
+E #93 "^'ESC'V" Token per Muove blocco selezionato
+
+E #94 "^'ESC'Y" Token per Elimina blocco selezionato
+E #95 "^'ESC'X" Token per Salva ed esce
+E #96 "^'ESC'Q" Token per Abort (annulla mod. ed esci)
+
+E #81 "^'ESC'B" F1 => Marca inizio del blocco
+E #82 "^'ESC'K" F2 => Marca fine del blocco
+E #83 "^L"      F3 => continua ricerca
+E #84 "^PZ"     F4 => Setta placemarker
+E #85 "^QP"     F4 => Cicla tra i placemarkers
+
